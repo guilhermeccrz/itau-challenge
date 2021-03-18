@@ -1,0 +1,43 @@
+{
+  "name": "challenge-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.1",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.5.3",
+    "express-favicon": "^2.0.1",
+    "file-loader": "^6.0.0",
+    "script-loader": "^0.7.2",
+    "style-loader": "^1.2.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^26.0.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "eslint": "eslint src/**.js",
+    "dev": "webpack-dev-server --mode development --open",
+    "start": "webpack -p && node server.js"
+  },
+  "author": "Guilherme Pleimo Cruz",
+  "license": "ISC"
+}
